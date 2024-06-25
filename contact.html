@@ -49,7 +49,12 @@
     <link href="css/custom.css" rel="stylesheet" />
   </head>
 
-  <body class="no-trans">
+  <body id="top" class="pace-done">
+    <div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div></div>  
+
     <!-- scrollToTop -->
     <!-- ================ -->
     <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -77,88 +82,121 @@
     </header>
     <!-- header end -->
 
+    <!-- contact
+   ================================================== -->
+	<section id="contact">
 
-    <!-- footer start -->
-    <!-- ================ -->
-    <footer id="footer">
-      <!-- .footer start -->
-      <!-- ================ -->
-      <div class="footer section">
-        <div class="container">
-          <h1 class="title text-center" id="contact">Contact Us</h1>
-          <div class="space"></div>
-          <div class="row">
-            <div class="col-12">
-              <div class="footer-content">
-                <p class="large">
-                  I'm always excited to collaborate on new projects or chat about web development. Whether you have a question, a project idea, or just want to say hello, feel free to drop a message. I'll get back to you as soon as I can - I'd love to hear from you!
-                </p>
-                <ul class="list-icons">
-                  <li>
-                    <i class="fa fa-map-marker pr-10"></i> 2 St. Augustine Close, Plum.
-                  </li>
-                  <li><i class="fa fa-phone pr-10"></i> +234 8105042956</li>
-                  <li><i class="fa fa-envelope-o pr-10"></i>odoemelamnmesomagrace@gmail.com</li>
-                </ul>
-            
-                <!-- boxicons start -->
-                 <div class="social-icons">
-                  <a href="#" class="icon"><i class="bx bxl-linkedin"></i></a>
-                  <a href="#" class="icon"><i class="bx bxl-github"></i></a>
-                  <a href="#" class="icon"><i class="bx bxl-tiktok"></i></a>
-                  <a href="#" class="icon"><i class="bx bxl-youtube"></i></a>
-                  <a href="#" class="icon"><i class="bx bxl-instagram"></i></a>
-                 </div>
-                 <!-- boxicons end -->
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-content">
-                <form role="form" id="footer-form">
-                  <div class="form-group has-feedback">
-                    <label class="sr-only" for="name2">Name</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name2"
-                      placeholder="Name"
-                      name="name2"
-                      required
-                    />
-                    <i class="fa fa-user form-control-feedback"></i>
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I am here for you.</h1>
+
+   			<p class="lead">I'm always excited to collaborate on new projects or chat about web development. Whether you have a question, a project idea, or just want to say hello, feel free to drop a message. I'll get back to you as soon as I can - I'd love to hear from you!</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
-                  <div class="form-group has-feedback">
-                    <label class="sr-only" for="email2">Email address</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email2"
-                      placeholder="Enter email"
-                      name="email2"
-                      required
-                    />
-                    <i class="fa fa-envelope form-control-feedback"></i>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
                   </div>
-                  <div class="form-group has-feedback">
-                    <label class="sr-only" for="message2">Message</label>
-                    <textarea
-                      class="form-control"
-                      rows="8"
-                      id="message2"
-                      placeholder="Message"
-                      name="message2"
-                      required
-                    ></textarea>
-                    <i class="fa fa-pencil form-control-feedback"></i>
-                  </div>
-                  <input type="submit" value="Send" class="btn btn-default" />
-                </form>
-              </div>
-            </div>
-          </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+    <div class="row contact-info">
+      <div class="col-four tab-full">
+
+        <div class="icon">
+          <i class="fa fa-map-marker pr-10"></i> 
         </div>
+
+        <h5>Where to find me</h5>
+
+        <p>
+           Abia State,
+           Nigeria<br>
+
+           </p>
+
       </div>
-      <!-- .footer end -->
+      
+      <div class="col-four tab-full collapse">
+
+        <div class="icon">
+          <i class="fa fa-envelope-o pr-10"></i>
+        </div>
+
+        <h5>Email Me At</h5>
+
+        <p>odoemelamnmesomagrace@gmail.com"></p>
+
+      </div>
+      
+      <div class="col-four tab-full">
+
+        <div class="icon">
+          <i class="fa fa-phone pr-10"></i>
+        </div>
+
+        <h5>Call Me At</h5>
+
+        <p>	Mobile:(+234) 810 5042 956</p>
+
+      </div>
+    
+    </div>
+
+                    <!-- boxicons start -->
+                    <div class="social-icons">
+                      <a href="#" class="icon"><i class="bx bxl-linkedin"></i></a>
+                      <a href="#" class="icon"><i class="bx bxl-github"></i></a>
+                      <a href="#" class="icon"><i class="bx bxl-tiktok"></i></a>
+                      <a href="#" class="icon"><i class="bx bxl-youtube"></i></a>
+                      <a href="#" class="icon"><i class="bx bxl-instagram"></i></a>
+                     </div>
+                     <!-- boxicons end -->
+    
+    
 
       <!-- section end -->
     <!-- section start -->
@@ -182,7 +220,7 @@
             <div class="col-md-12">
               <p class="text-center">
                 Odoemelam Nmesoma cohort 9 capstone project
-                <a target="_blank" href="https://hertechtrail.org">Hertechtrail,2024</a>.
+                <a target="_blank" href="https://hertechtrail.org"> hertechtrail, 2024</a>.
               </p>
               <div id="go-top" style="display: block;">
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
@@ -195,9 +233,7 @@
     </footer>
     <!-- footer end -->
 
-    <div id="preloader" style="display: none;"> 
-    	<div id="loader" style="display: none;"></div>
-   </div>
+    
 
     <!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
