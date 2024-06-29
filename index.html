@@ -46,19 +46,82 @@
     <link href="css/custom.css" rel="stylesheet" />
   </head>
 
-  <body id="top" class="pace-done">
-    <div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
-      <div class="pace-progress-inner"></div>
-    </div>
-    <div class="pace-activity"></div></div>
+  <body class="no-trans">
 
     <!-- scrollToTop -->
     <!-- ================ -->
     <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
+    
     <!-- header start -->
     <!-- ================ -->
-    <header>   	
+    <header class="header fixed clearfix navbar navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- header-left start -->
+            <!-- ================ -->
+            <div class="header-left clearfix"> 
+              <!-- name-and-slogan -->
+              <div class="site-name-and-slogan smooth-scroll">
+                <div class="site-name">SOMA <sub style="font-size: small; font-style:italic">the girl on glasses</sub></div>
+              </div>
+            </div>
+            <!-- header-left end -->
+          </div>
+          <div class="col-md-8">
+            <!-- header-right start -->
+            <!-- ================ -->
+            <div class="header-right clearfix">
+              <!-- main-navigation start -->
+              <!-- ================ -->
+              <div class="main-navigation animated">
+                <!-- navbar start -->
+                <!-- ================ -->
+                <nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+                    <!-- Toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#navbar-collapse-1"
+                      >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div
+                      class="collapse navbar-collapse scrollspy smooth-scroll"
+                      id="navbar-collapse-1"
+                    >
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <!-- navbar end -->
+              </div>
+              <!-- main-navigation end -->
+            </div>
+            <!-- header-right end -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end --
+   
+    <!-- header start -->
+    <!-- ================ -->
+    <!-- <header>   	
       <div class="row">
  
         <div class="top-bar">
@@ -73,10 +136,12 @@
                      
            </ul>
          </nav>    		
-        </div> <!-- /top-bar --> 
+        </div> 
+        /top-bar 
         
-      </div> <!-- /row --> 		
-    </header>
+      </div> 
+      /row 		
+    </header> -->
     <!-- header end -->
 
     <!-- banner start -->
@@ -104,7 +169,7 @@
                     <h1 style="font-size: 35px;">I am Odoemelam Nmesoma.</h1>
          
                     <p class="intro-position">
-                      <span>Front-end Developer</span>
+                      <span style="font-size: 20px; text-transform:uppercase;">Front-end Developer</span>
                     </p>
          
                     <a class='button stroke' href='./about.html' title>More About Me</a>
