@@ -762,7 +762,7 @@ border-radius: 7px;
 #contact input[type="email"],
 #contact textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
+	color: black;
 	margin-bottom: 0;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -983,7 +983,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border: 2px solid orchid;
+  border: 1px solid purple;
 }
 .list-unstyled li {
   padding: 5px 0;
@@ -1120,7 +1120,7 @@ img {
   height: 100%;
   background-color: black;
 }
-.translucent-bg.orchid:after {
+.translucent-bg.purple:after {
   background-color: rgb(25, 3, 3);
 }
 .translucent-bg .container {
@@ -1357,7 +1357,7 @@ img {
   z-index: 600;
   display: none;
 }
-.pace-inactive {
+/* .pace-inactive {
   display: none;
 }
 .pace {
@@ -1366,7 +1366,7 @@ img {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-}
+} */
 
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1381,6 +1381,7 @@ img {
 	height: 12rem;
 	width: 12rem;
 	border-radius: 5px 30px 5px 30px;
+	border: 2px solid purple;
 	margin: .9rem 0 0 0;
 	float: left;
 }
@@ -1524,13 +1525,13 @@ img {
   transition: all 0.2s ease-in-out;
 }
 .btn-default {
-  color: orchid;
-  border: 1px solid #cccccc;
+  color: purple;
+  border: 1px solid purple;
 }
 .btn-default:hover {
   color: #cccccc;
-  background-color: orchid;
-  border-color: orchid;
+  background-color: purple;
+  border-color: purple;
 }
 
 /* Collapse
@@ -1561,7 +1562,7 @@ img {
   padding: 12px 35px 12px 15px;
   display: inline-block;
   width: 100%;
-  background-color: orchid;
+  background-color: purple;
   color: #ffffff;
   position: relative;
   text-decoration: none;
@@ -1586,7 +1587,7 @@ img {
 }
 .panel-heading a:hover {
   text-decoration: none;
-  background-color: orchid;
+  background-color: purple;
   color: #ffffff;
 }
 .panel-title a i {
@@ -1600,15 +1601,15 @@ img {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-  background-color: orchid;
-  border-color: orchid;
+  background-color: purple;
+  border-color: purple;
   color: #ffffff;
 }
 .nav-pills > li > a {
   border-radius: 0;
   padding: 8px 20px;
-  border: 1px solid #cacaca;
-  color: #666666;
+  border: 1px solid purple;
+  color: #424242;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 300;
@@ -1622,7 +1623,7 @@ img {
   border-radius: 0px;
 }
 .modal-header {
-  background-color: orchid;
+  background-color: purple;
   color: #ffffff;
 }
 .modal-header h4 {
@@ -1808,7 +1809,7 @@ img {
   margin-bottom: 20px;
 }
 .isotope-item .btn-default {
-  color: orchid;
+  color: purple;
 }
 .isotope-item .btn-default:hover {
   color: #ffffff;
@@ -1833,7 +1834,7 @@ img {
   bottom: -1px;
   left: 0;
   right: -1px;
-  background-color: orchid;
+  background-color: purple;
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
