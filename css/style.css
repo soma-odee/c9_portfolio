@@ -76,7 +76,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: orchid;
+	color: purple;
 	outline: 0;
 }
 
@@ -226,7 +226,7 @@ form,
 	display: none;
 }
 .pace .pace-progress {
-	background: orchid;
+	background: purple;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -283,8 +283,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: orchid;
-	border-bottom: 1px solid orchid;
+	color: purple;
+	border-bottom: 1px solid purple;
 }
 label, legend {
 	font-family: "poppins-bold", sans-serif;
@@ -468,7 +468,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .ss-notice {
 	background-color: pink;
-	color: orchid;
+	color: purple;
 }
 
 /** 
@@ -499,7 +499,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: orchid;
+	color: purple;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -804,7 +804,7 @@ position: relative;
 display: block;
 height: 100%;
 width: 90%;
-background: orchid;
+background: purple;
 animation: progress 0.4s ease-in-out forwards;
 border-radius: 7px;
 }
@@ -832,11 +832,11 @@ border-radius: 7px;
 .skill-per .tool-tip{
 	position: absolute;
 	right: -14px;
-	top: -28px;
+	top: -45px;
 	font-size: 9px;
 	font-weight: 500;
 	color: #fff;
-	background: orchid;
+	background: purple;
 	padding: 2px 6px;
 	border-radius: 3px;
 }
@@ -848,7 +848,7 @@ border-radius: 7px;
 	margin-left: -5px;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
-	border-top: 5px solid orchid;
+	border-top: 5px solid purple;
 	content: "";
 }
 /* my youtube skills bar end */
@@ -907,17 +907,17 @@ border-radius: 7px;
 
  /* * ------------------------------------ */
 #contact {
-	background: #4a4a4a;
+	background: pink;
 	padding-top: 12rem
 }
 #contact .section-intro h1 {
-	color: white;
+	color: #313131;
 }
 #contact .section-intro h5 {
-	color: orchid;
+	color: purple;
 }
 #contact .section-intro p {
-	color: rgba(253, 251, 251, 0.7);
+	color: #424242;
 }
 
 /* contact form */
@@ -955,7 +955,7 @@ border-radius: 7px;
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: orchid;
+	background: purple;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -964,7 +964,7 @@ border-radius: 7px;
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid orchid;
+	border-right: 5px solid purple;
 	content: "";
 }
 #contact input[type="text"],
@@ -986,16 +986,16 @@ border-radius: 7px;
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: orchid;
-	color: #FFFFFF;
+	border-color: purple;
+	color: black;
 }
 #contact textarea {
 	min-height: 20rem;
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: orchid;
-	color: #FFFFFF;
+	border-color: purple;
+	color: black;
 }
 #contact button.submitform {
 	font-size: 1.5rem;
@@ -1006,11 +1006,11 @@ border-radius: 7px;
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: orchid;
-	color: #FFFFFF;
+	background: purple;
+	color: black;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: orchid;
+	background: rgba(128, 0, 128, 0.7);
 }
 #message-warning, #message-success {
 	display: none;
@@ -1024,7 +1024,7 @@ border-radius: 7px;
 	color: #fa0003;
 }
 #message-success {
-	color: orchid;
+	color: purple;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -1042,7 +1042,7 @@ border-radius: 7px;
 #submit-loader .text-loader {
 	display: none;
 	font-family: "poppins-bold", sans-serif;
-	color: #FFFFFF;
+	color: black;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
@@ -1068,10 +1068,10 @@ border-radius: 7px;
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FFFFFF;
+	color: black;
 }
 .contact-info h5 {
-	color: orchid;
+	color: purple;
 }
 
 /**
@@ -1387,7 +1387,7 @@ img {
   display: table;
   position: relative;
   text-align: center;
-  bottom: 66px;
+  /* bottom: 66px; */
  }
   .intro-content .button {
     margin-top: 0.6rem;
@@ -2127,7 +2127,10 @@ img {
   margin: 0 15px;
   width: 40px;
   height: 40px;
-  border: 1px solid purple;
+  border: 1px solid black;
+}
+.social-icons a:hover{
+	color: purple;
 }
 /* Isotope Items
 ---------------------------------- */
